@@ -1,0 +1,57 @@
+/* Estilo para el encabezado */
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna para el título */
+    font-size: 2.5rem; /* Tamaño de fuente del título */
+    color: #eeff00; /* Color del texto del título */
+    text-align: center; /* Alineación centrada */
+    margin: 0px 0; /* Espaciado alrededor del título */
+}
+h2,h3,h4,h5{
+    text-align: center;
+    color:white;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 1rem; /* Tamaño de fuente de los párrafos */
+    color: #ffffff; /* Color del texto de los párrafos */
+    margin: 10px 20px; /* Espaciado alrededor de los párrafos */
+}
+
+/* Estilo para la lista */
+ul {
+    margin: 20px 40px; /* Espaciado alrededor de la lista */
+    padding: 0; /* Quitar padding por defecto */
+    list-style-type: disc; /* Tipo de viñetas */
+}
+
+li {
+    font-size: 1rem; /* Tamaño de fuente de los elementos de la lista */
+    margin: 10px 0; /* Espaciado entre elementos de la lista */
+    color:rgb(253, 253, 253);
+}
+/* Estilo para los elementos destacados */
+strong {
+    color: #ee9510; /* Color del texto en negrita */
+    font-weight: bold; /* Negrita */
+}
+#big{
+    font-size:20px;
+}
+#div-img-banner {
+    height: auto; /* Altura inicial para que se vea la imagen */
+    background-image: url('../../../public/img/albion-banner2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#div-translucido{
+    height: auto;
+    background: linear-gradient(to bottom right, rgba(163, 154, 240, 0.6), rgba(12, 12, 12, 0.6));
+}
+#div-contenedor{
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px; /* Espaciado interior */
+    border-radius: 100px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    background: linear-gradient(to bottom right, rgba(241, 76, 76, 0.4), rgba(113, 209, 233, 0.4));
+}
