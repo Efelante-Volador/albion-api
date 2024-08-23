@@ -40,7 +40,7 @@ strong {
 }
 #div-img-banner {
     height: auto; /* Altura inicial para que se vea la imagen */
-    background-image: url('../../../public/img/albion-banner2.jpg');
+    background-image: url('../../../../public/img/albion-banner2.jpg');
     background-size: cover;
     background-position: center;
 }

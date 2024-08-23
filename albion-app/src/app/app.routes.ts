@@ -1,8 +1,8 @@
 import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { LoginComponent} from './vistas/login/login.component';
-import { LobbyComponent} from './vistas/lobby/lobby.component';
-import { ExampleComponent} from './vistas/example/example.component';
+import { HomeComponent } from './views/home/home.component';
+import { LoginComponent} from './views/login/login.component';
+import { LobbyComponent} from './views/lobby/lobby.component';
+import { ExampleComponent} from './views/example/example.component';
 
 
 import { NgModule } from '@angular/core';
