@@ -1,52 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="/home">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="Bootstrap Logo">
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="/lobby">Lobby</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/login">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/example">Example</a>
-                </li>
-                <!--<li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Dropdown link
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>-->
-            </ul>
-        </div>
-    </div>
-</nav>
+<app-navbar/>
 <div id="contenido">
-    <router-outlet></router-outlet> 
+    <router-outlet/> 
 </div>
-<footer class="footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <a href="/example" class="btn btn-warning">Contáctanos</a>
-            </div>
-            <div class="col-md-12 social-icons">
-                <a href="https://facebook.com/tuempresa" target="_blank"><i class="fab fa-facebook social-icon"></i></a>
-                <a href="https://twitter.com/tuempresa" target="_blank"><i class="fab fa-twitter social-icon"></i></a>
-                <a href="https://linkedin.com/company/tuempresa" target="_blank"><i class="fab fa-linkedin social-icon"></i></a>
-                <a href="https://instagram.com/tuempresa" target="_blank"><i class="fab fa-instagram social-icon"></i></a>
-            </div>
-            <div id="copyright" class="col-md-12">
-                <p>&copy; 2024 Todos los derechos reservados</p>
-            </div>
-        </div>
-    </div>
-</footer>
+<app-footer/>
+

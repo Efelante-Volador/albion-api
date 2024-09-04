@@ -1,0 +1,52 @@
+html {
+    background-color: #333333;
+    color: white;
+}
+#contenido{
+    min-height: auto;
+}
+.container {
+    max-width: 960px; /* Ajusta el ancho máximo del contenedor si es necesario */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.footer {
+    padding-top:10px;
+    background-color: #333;
+    color: #fff;
+}
+.container {
+    max-width: 960px; /* Ajusta el ancho máximo del contenedor si es necesario */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra el contenido de las columnas horizontalmente */
+}
+
+.col-md-1,
+.col-md-12 {
+    text-align: center; /* Centra el texto dentro de las columnas */
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center; /* Centra los iconos socialmente */
+    padding: 0; /* Elimina el padding adicional */
+    margin-top: 10px; /* Espacio entre los iconos y el botón de contacto */
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px; /* Ajusta el tamaño de los iconos aquí */
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ccc;
+}
+
+#copyright {
+    text-align: center;
+}

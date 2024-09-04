@@ -1,12 +1,20 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ItemsService } from '../../service/items.service'; // Ajusta la ruta según la estructura de tu proyecto
 
 @Component({
   selector: 'app-items',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './items.component.html',
-  styleUrl: './items.component.css'
+  styleUrls: ['./items.component.css']
 })
-export class ItemsComponent {
+export class ItemsComponent implements OnInit {
+  items: any[] = [];
 
+  constructor(private itemsService: ItemsService) { }
+
+  ngOnInit(): void {
+    
+  }
 }
