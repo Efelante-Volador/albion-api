@@ -1,0 +1,7 @@
+/* Ejemplo de estilos para el dropdown */
+select {
+    width: 150px;
+    padding: 8px;
+    margin: 10px 0;
+  }
+  
